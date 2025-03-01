@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 6dc3a694fcdadbc408be054cffddb334
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 276757
+  packageName: City Car Driving Simulator
+  packageVersion: 2.11
+  assetPath: Assets/CCDS/Realistic Car Controller Pro/Prefabs/Lights/RCCP_Light_Indicator_R.prefab
+  uploadId: 708118

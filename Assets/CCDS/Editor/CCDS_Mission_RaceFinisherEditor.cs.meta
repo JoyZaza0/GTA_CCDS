@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 70eca05e7dba70f448b3e890193e1543
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 276757
+  packageName: City Car Driving Simulator
+  packageVersion: 2.11
+  assetPath: Assets/CCDS/Editor/CCDS_Mission_RaceFinisherEditor.cs
+  uploadId: 708118

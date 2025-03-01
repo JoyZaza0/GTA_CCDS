@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 291e61067229af74d8f64d3ea8d69cc1
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 276757
+  packageName: City Car Driving Simulator
+  packageVersion: 2.11
+  assetPath: Assets/CCDS/Animations/Damage_Vertical_Fill.controller
+  uploadId: 708118

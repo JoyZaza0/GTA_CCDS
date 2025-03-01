@@ -1,0 +1,307 @@
+fileFormatVersion: 2
+guid: c98cee127e256bb4ebf8b6c0e6f0aadd
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Body
+  - first:
+      1: 100002
+    second: //RootNode
+  - first:
+      1: 100004
+    second: Door_F
+  - first:
+      1: 100006
+    second: Door_L
+  - first:
+      1: 100008
+    second: Door_R
+  - first:
+      1: 100010
+    second: Steer
+  - first:
+      1: 100012
+    second: Wheel_BL
+  - first:
+      1: 100014
+    second: Wheel_BR
+  - first:
+      1: 100016
+    second: Wheel_FL
+  - first:
+      1: 100018
+    second: Wheel_FR
+  - first:
+      1: 100020
+    second: Door_L001
+  - first:
+      4: 400000
+    second: Body
+  - first:
+      4: 400002
+    second: //RootNode
+  - first:
+      4: 400004
+    second: Door_F
+  - first:
+      4: 400006
+    second: Door_L
+  - first:
+      4: 400008
+    second: Door_R
+  - first:
+      4: 400010
+    second: Steer
+  - first:
+      4: 400012
+    second: Wheel_BL
+  - first:
+      4: 400014
+    second: Wheel_BR
+  - first:
+      4: 400016
+    second: Wheel_FL
+  - first:
+      4: 400018
+    second: Wheel_FR
+  - first:
+      4: 400020
+    second: Door_L001
+  - first:
+      23: 2300000
+    second: Body
+  - first:
+      23: 2300002
+    second: Door_F
+  - first:
+      23: 2300004
+    second: Door_L
+  - first:
+      23: 2300006
+    second: Door_R
+  - first:
+      23: 2300008
+    second: Steer
+  - first:
+      23: 2300010
+    second: Wheel_BL
+  - first:
+      23: 2300012
+    second: Wheel_BR
+  - first:
+      23: 2300014
+    second: Wheel_FL
+  - first:
+      23: 2300016
+    second: Wheel_FR
+  - first:
+      23: 2300018
+    second: Door_L001
+  - first:
+      33: 3300000
+    second: Body
+  - first:
+      33: 3300002
+    second: Door_F
+  - first:
+      33: 3300004
+    second: Door_L
+  - first:
+      33: 3300006
+    second: Door_R
+  - first:
+      33: 3300008
+    second: Steer
+  - first:
+      33: 3300010
+    second: Wheel_BL
+  - first:
+      33: 3300012
+    second: Wheel_BR
+  - first:
+      33: 3300014
+    second: Wheel_FL
+  - first:
+      33: 3300016
+    second: Wheel_FR
+  - first:
+      33: 3300018
+    second: Door_L001
+  - first:
+      43: 4300000
+    second: Door_L
+  - first:
+      43: 4300002
+    second: Door_F
+  - first:
+      43: 4300004
+    second: Door_R
+  - first:
+      43: 4300006
+    second: Wheel_FL
+  - first:
+      43: 4300008
+    second: Wheel_BL
+  - first:
+      43: 4300010
+    second: Wheel_BR
+  - first:
+      43: 4300012
+    second: Wheel_FR
+  - first:
+      43: 4300014
+    second: Steer
+  - first:
+      43: 4300016
+    second: Body
+  - first:
+      43: 4300018
+    second: Door_L001
+  - first:
+      74: 7400000
+    second: Take 001
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      41386430: 2186277476908879412
+    second: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glass
+    second: {fileID: 2100000, guid: c7323ee4bfa233843a95174c4280f2ec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat Body 1
+    second: {fileID: 2100000, guid: 6fb8786900b440140a582aa2d9b9e179, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat Body 2
+    second: {fileID: 2100000, guid: f057608e6fd997e4eb2d844efe147572, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mat Wheel
+    second: {fileID: 2100000, guid: db2245d9420832542bc3062977115551, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Textures Body
+    second: {fileID: 2100000, guid: ac141bd7bd6a44c40a74c6f05b4caff7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Textures Doors
+    second: {fileID: 2100000, guid: b97f52f36cf46034d884dfe91e280699, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wheel
+    second: {fileID: 2100000, guid: 7deb6bc8a1c0c244689e90a9c83d138a, type: 2}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.031
+    meshCompression: 2
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    nodeNameCollisionStrategy: 0
+    fileIdsGeneration: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 0
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 0.031
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  importBlendShapeDeformPercent: 0
+  remapMaterialsIfMaterialImportModeIsNone: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

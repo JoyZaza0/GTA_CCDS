@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 55caac1be0076954d8c386537d3e13df
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 276757
+  packageName: City Car Driving Simulator
+  packageVersion: 2.11
+  assetPath: Assets/CCDS/Realistic Car Controller Pro/Fixed Meshes/Fixed Meshes.txt
+  uploadId: 708118

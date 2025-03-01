@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: abb8fb7adf7433244b9f64bf13907e26
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 276757
+  packageName: City Car Driving Simulator
+  packageVersion: 2.11
+  assetPath: Assets/CCDS/Models/Materials/CCDS_RoadSideArrows.mat
+  uploadId: 708118

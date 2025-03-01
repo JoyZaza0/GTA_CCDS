@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 5ad96c149fca0f445be8de2d6016def8
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 276757
+  packageName: City Car Driving Simulator
+  packageVersion: 2.11
+  assetPath: Assets/CCDS/Prefabs/Minimap/CCDS_Icon_Minimap_Opponent.prefab
+  uploadId: 708118

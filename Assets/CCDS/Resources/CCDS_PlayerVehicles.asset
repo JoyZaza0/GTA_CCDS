@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c9e2056676699d4fb581ae113d1f473, type: 3}
+  m_Name: CCDS_PlayerVehicles
+  m_EditorClassIdentifier: 
+  playerVehicles:
+  - vehicle: {fileID: -1431724566542494774, guid: 958bdd178c1edeb4d84ab7c6b9282865, type: 3}
+    price: 0
+    engineTorque: 230
+    handling: 0.4
+    speed: 220
+    upgradedEngineEfficiency: 1.2
+    upgradedHandlingEfficiency: 1.2
+    upgradedSpeedEfficiency: 1.2
+  - vehicle: {fileID: 5323726254421180109, guid: 4fe1a9d6a13d58c4ea99e0854b5a4b3b, type: 3}
+    price: 0
+    engineTorque: 260
+    handling: 0.5
+    speed: 240
+    upgradedEngineEfficiency: 1.2
+    upgradedHandlingEfficiency: 1.2
+    upgradedSpeedEfficiency: 1.2
+  - vehicle: {fileID: -8577177217229825364, guid: 04de1570f453ce94ca000816c69206ca, type: 3}
+    price: 0
+    engineTorque: 320
+    handling: 0.55
+    speed: 260
+    upgradedEngineEfficiency: 1.2
+    upgradedHandlingEfficiency: 1.2
+    upgradedSpeedEfficiency: 1.2
+  - vehicle: {fileID: -2437689962770025687, guid: 9c25ec39ad3073d4ab71db97291d2dfa, type: 3}
+    price: 0
+    engineTorque: 360
+    handling: 0.6
+    speed: 270
+    upgradedEngineEfficiency: 1.2
+    upgradedHandlingEfficiency: 1.2
+    upgradedSpeedEfficiency: 1.2
+  - vehicle: {fileID: -1278793513552365239, guid: 609ade0c42d418847a9969bf628d4dcd, type: 3}
+    price: 0
+    engineTorque: 420
+    handling: 0.65
+    speed: 300
+    upgradedEngineEfficiency: 1.2
+    upgradedHandlingEfficiency: 1.2
+    upgradedSpeedEfficiency: 1.2
+  - vehicle: {fileID: -6524037226611379686, guid: 006afa305dbb1794e93d78ba26bce708, type: 3}
+    price: 0
+    engineTorque: 520
+    handling: 0.7
+    speed: 320
+    upgradedEngineEfficiency: 1.2
+    upgradedHandlingEfficiency: 1.2
+    upgradedSpeedEfficiency: 1.2
+  - vehicle: {fileID: -6232125500754535978, guid: dd804486879727b4988a5a70254b3b21, type: 3}
+    price: 0
+    engineTorque: 580
+    handling: 0.8
+    speed: 330
+    upgradedEngineEfficiency: 1.2
+    upgradedHandlingEfficiency: 1.2
+    upgradedSpeedEfficiency: 1.2

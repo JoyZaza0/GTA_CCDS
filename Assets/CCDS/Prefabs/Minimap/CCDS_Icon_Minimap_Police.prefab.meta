@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: aa1e474f98f7cd542a1b16cde02194e7
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 276757
+  packageName: City Car Driving Simulator
+  packageVersion: 2.11
+  assetPath: Assets/CCDS/Prefabs/Minimap/CCDS_Icon_Minimap_Police.prefab
+  uploadId: 708118

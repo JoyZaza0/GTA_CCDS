@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 717d0f6439ccbb7488b7bf59790f2e2b
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 276757
+  packageName: City Car Driving Simulator
+  packageVersion: 2.11
+  assetPath: Assets/CCDS/Scripts/Missions/CCDS_MissionObjective_Pursuit_Vehicle.cs
+  uploadId: 708118

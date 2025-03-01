@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 9a21f6683e0f61e4c9e9727cd49a4e0f
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 276757
+  packageName: City Car Driving Simulator
+  packageVersion: 2.11
+  assetPath: Assets/CCDS/Prefabs/Player Vehicles/Sedan.prefab
+  uploadId: 708118

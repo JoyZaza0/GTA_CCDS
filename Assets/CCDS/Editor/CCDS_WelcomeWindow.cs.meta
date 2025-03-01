@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 03f14551de2f24347b1b1dd460b86fd4
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 276757
+  packageName: City Car Driving Simulator
+  packageVersion: 2.11
+  assetPath: Assets/CCDS/Editor/CCDS_WelcomeWindow.cs
+  uploadId: 708118

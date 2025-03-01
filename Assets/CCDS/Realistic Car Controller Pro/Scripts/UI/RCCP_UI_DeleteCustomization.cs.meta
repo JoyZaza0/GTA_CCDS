@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 0b52215cfd74f6d4787c6d6cd1a9af09
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 276757
+  packageName: City Car Driving Simulator
+  packageVersion: 2.11
+  assetPath: Assets/CCDS/Realistic Car Controller Pro/Scripts/UI/RCCP_UI_DeleteCustomization.cs
+  uploadId: 708118

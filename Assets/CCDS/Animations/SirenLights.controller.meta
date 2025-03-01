@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1f2c5641327a6bd488b81dc5aebdc755
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 276757
+  packageName: City Car Driving Simulator
+  packageVersion: 2.11
+  assetPath: Assets/CCDS/Animations/SirenLights.controller
+  uploadId: 708118

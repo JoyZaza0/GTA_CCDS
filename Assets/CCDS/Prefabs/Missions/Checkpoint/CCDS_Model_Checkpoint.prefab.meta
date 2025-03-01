@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 5fdf568c6c3485f4fa0feb8bfe3bb1d1
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 276757
+  packageName: City Car Driving Simulator
+  packageVersion: 2.11
+  assetPath: Assets/CCDS/Prefabs/Missions/Checkpoint/CCDS_Model_Checkpoint.prefab
+  uploadId: 708118

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 2d2cfb14d6aee14478ced0829ecfa0c9
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 276757
+  packageName: City Car Driving Simulator
+  packageVersion: 2.11
+  assetPath: Assets/CCDS/Prefabs/Cameras/CCDS_Camera_Gameplay.prefab
+  uploadId: 708118

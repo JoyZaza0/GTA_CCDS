@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 9c720df859cf9cf4ab5982eaa178f2b7
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 276757
+  packageName: City Car Driving Simulator
+  packageVersion: 2.11
+  assetPath: Assets/CCDS/Prefabs/Misc/CCDS_Model_ArrowIndicator.prefab
+  uploadId: 708118

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: babea2e59cc6ff6428491545c2954a50
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 276757
+  packageName: City Car Driving Simulator
+  packageVersion: 2.11
+  assetPath: Assets/CCDS/Scripts/Missions/CCDS_Marker.cs
+  uploadId: 708118

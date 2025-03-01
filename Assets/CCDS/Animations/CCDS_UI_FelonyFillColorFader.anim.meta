@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0517112bec93b7e4d95e993eb2b3fc9a
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 276757
+  packageName: City Car Driving Simulator
+  packageVersion: 2.11
+  assetPath: Assets/CCDS/Animations/CCDS_UI_FelonyFillColorFader.anim
+  uploadId: 708118

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 326255e18d23ab84cbc79184e9d05a65
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 276757
+  packageName: City Car Driving Simulator
+  packageVersion: 2.11
+  assetPath: Assets/CCDS/Prefabs/Misc/CCDS_Police_Siren.prefab
+  uploadId: 708118

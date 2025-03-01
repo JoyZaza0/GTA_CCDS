@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 68dcde4c135b7cc459b3bd9f19b970fb
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 276757
+  packageName: City Car Driving Simulator
+  packageVersion: 2.11
+  assetPath: Assets/CCDS/URP/New Universal Render Pipeline Asset_Renderer.asset
+  uploadId: 708118

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 67175e7dbee71dc44b06211d57952a26
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 276757
+  packageName: City Car Driving Simulator
+  packageVersion: 2.11
+  assetPath: Assets/CCDS/Prefabs/Minimap/CCDS_Minimap_Camera.prefab
+  uploadId: 708118

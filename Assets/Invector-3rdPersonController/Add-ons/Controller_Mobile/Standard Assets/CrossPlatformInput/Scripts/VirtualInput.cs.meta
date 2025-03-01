@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 0f57aeb1b8dce3342bea5c28ac17db24
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 193509
+  packageName: Gaia 2021 - Terrain & Scene Generator
+  packageVersion: 
+  assetPath: Assets/Invector-3rdPersonController/Add-ons/Controller_Mobile/Standard
+    Assets/CrossPlatformInput/Scripts/VirtualInput.cs
+  uploadId: 0

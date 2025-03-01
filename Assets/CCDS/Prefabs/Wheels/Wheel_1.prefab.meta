@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: e0a1bd2f847b2754eae2e7d2c5e8aea3
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 276757
+  packageName: City Car Driving Simulator
+  packageVersion: 2.11
+  assetPath: Assets/CCDS/Prefabs/Wheels/Wheel_1.prefab
+  uploadId: 708118

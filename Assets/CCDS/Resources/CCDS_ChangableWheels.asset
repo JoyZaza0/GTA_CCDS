@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c805815e9bd9e924d87c3d780fb61fe0, type: 3}
+  m_Name: CCDS_ChangableWheels
+  m_EditorClassIdentifier: 
+  wheels:
+  - wheel: {fileID: 5937049272481667453, guid: e0a1bd2f847b2754eae2e7d2c5e8aea3, type: 3}
+  - wheel: {fileID: 8947716701004765983, guid: c3d6ad8b33e39be4abacc4b89be5495c, type: 3}
+  - wheel: {fileID: 6747009115032387668, guid: 6d72df58d38fd8449b4affeb12efa160, type: 3}
+  - wheel: {fileID: 6236238426685473945, guid: 2ced565340fe6404190d04b3dfee0849, type: 3}
+  - wheel: {fileID: 3074734156915735578, guid: a65af8524703b2744a64a9f0bac7e70d, type: 3}
+  - wheel: {fileID: 744404590757720361, guid: 3cfe7f603ab52614ca5daab74e3a2abf, type: 3}
+  - wheel: {fileID: 7977883962703259494, guid: a8cb674b97575c144a950c5c17bdc53e, type: 3}

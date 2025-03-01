@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: af187d76b7bc4e54dad467bd8208110e
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 276757
+  packageName: City Car Driving Simulator
+  packageVersion: 2.11
+  assetPath: Assets/CCDS/Prefabs/Missions/Trailblazer/CCDS_Model_Trailblazer.prefab
+  uploadId: 708118

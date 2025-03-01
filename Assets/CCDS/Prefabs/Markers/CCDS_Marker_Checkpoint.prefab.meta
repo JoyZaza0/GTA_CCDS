@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 8b5f122d209cd104b9f9c7c55925b3a6
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 276757
+  packageName: City Car Driving Simulator
+  packageVersion: 2.11
+  assetPath: Assets/CCDS/Prefabs/Markers/CCDS_Marker_Checkpoint.prefab
+  uploadId: 708118

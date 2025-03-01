@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 2c6d8cd4143a8e642b8ab3d4a3b99061
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 276757
+  packageName: City Car Driving Simulator
+  packageVersion: 2.11
+  assetPath: Assets/CCDS/Documentation/CCDS Performance Tips On Android & WebGL.pdf
+  uploadId: 708118

@@ -1,0 +1,29 @@
+fileFormatVersion: 2
+guid: b4b73cd5a1ffe394f8de706bd15fa89c
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 14
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - a Apple Tea
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 326d455a938ebe14385b7f67cc81ca05, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 276757
+  packageName: City Car Driving Simulator
+  packageVersion: 2.11
+  assetPath: Assets/CCDS/Font/AppleTea.otf
+  uploadId: 708118

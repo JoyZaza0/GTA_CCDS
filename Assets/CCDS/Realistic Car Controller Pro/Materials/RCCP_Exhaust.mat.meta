@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d6217dd30bb2bfb49b8a2cafb3d3d5d2
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 276757
+  packageName: City Car Driving Simulator
+  packageVersion: 2.11
+  assetPath: Assets/CCDS/Realistic Car Controller Pro/Materials/RCCP_Exhaust.mat
+  uploadId: 708118

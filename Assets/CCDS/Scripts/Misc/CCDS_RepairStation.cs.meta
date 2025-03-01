@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: af7ff02a141ca5e4ea4e8db81550f307
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 276757
+  packageName: City Car Driving Simulator
+  packageVersion: 2.11
+  assetPath: Assets/CCDS/Scripts/Misc/CCDS_RepairStation.cs
+  uploadId: 708118

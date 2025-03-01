@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0bf25b4b9c9f93e44b724536fe427103
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 276757
+  packageName: City Car Driving Simulator
+  packageVersion: 2.11
+  assetPath: Assets/CCDS/Animations/Informer.controller
+  uploadId: 708118

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 9202d72b9dee2ce4b9993d47c55b05f1
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 276757
+  packageName: City Car Driving Simulator
+  packageVersion: 2.11
+  assetPath: Assets/CCDS/Models/Materials/CCDS_Model_Checkpoint.mat
+  uploadId: 708118

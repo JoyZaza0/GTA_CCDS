@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 10c0151c76034d44aa45f5f8fe904e6d
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 276757
+  packageName: City Car Driving Simulator
+  packageVersion: 2.11
+  assetPath: Assets/CCDS/Models/Materials/CCDS_Trailblazer_Stripes.mat
+  uploadId: 708118

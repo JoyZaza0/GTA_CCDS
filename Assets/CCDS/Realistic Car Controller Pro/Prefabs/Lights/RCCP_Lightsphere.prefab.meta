@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 92a3028bc2a64754ab820d810683c14d
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 276757
+  packageName: City Car Driving Simulator
+  packageVersion: 2.11
+  assetPath: Assets/CCDS/Realistic Car Controller Pro/Prefabs/Lights/RCCP_Lightsphere.prefab
+  uploadId: 708118

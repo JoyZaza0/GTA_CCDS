@@ -1,0 +1,39 @@
+fileFormatVersion: 2
+guid: 8c2c84ce44372d34299aaaf4bc06f266
+AssetOrigin:
+  serializedVersion: 1
+  productId: 276757
+  packageName: City Car Driving Simulator
+  packageVersion: 2.11
+  assetPath: Assets/CCDS/Audio/CCDS_Music_02.wav
+  uploadId: 708118
+AudioImporter:
+  externalObjects: {}
+  serializedVersion: 8
+  defaultSettings:
+    serializedVersion: 2
+    loadType: 2
+    sampleRateSetting: 0
+    sampleRateOverride: 44100
+    compressionFormat: 1
+    quality: 0.75
+    conversionMode: 0
+    preloadAudioData: 0
+  platformSettingOverrides:
+    Android:
+      serializedVersion: 2
+      loadType: 0
+      sampleRateSetting: 0
+      sampleRateOverride: 44100
+      compressionFormat: 1
+      quality: 0.75
+      conversionMode: 0
+      preloadAudioData: 0
+  forceToMono: 0
+  normalize: 1
+  loadInBackground: 0
+  ambisonic: 0
+  3D: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

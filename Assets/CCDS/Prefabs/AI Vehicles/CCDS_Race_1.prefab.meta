@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: a2ba913957d3ac6438acb3a29145e5dc
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 276757
+  packageName: City Car Driving Simulator
+  packageVersion: 2.11
+  assetPath: Assets/CCDS/Prefabs/AI Vehicles/CCDS_Race_1.prefab
+  uploadId: 708118

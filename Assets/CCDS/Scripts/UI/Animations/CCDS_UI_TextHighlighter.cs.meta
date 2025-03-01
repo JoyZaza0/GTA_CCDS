@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 21f9b11ab72827e45878d25beeddc27a
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 276757
+  packageName: City Car Driving Simulator
+  packageVersion: 2.11
+  assetPath: Assets/CCDS/Scripts/UI/Animations/CCDS_UI_TextHighlighter.cs
+  uploadId: 708118

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: e04967658c993a748b5f22e39dbf0f21
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 276757
+  packageName: City Car Driving Simulator
+  packageVersion: 2.11
+  assetPath: Assets/CCDS/Prefabs/Misc/CCDS_EngineSmoke.prefab
+  uploadId: 708118

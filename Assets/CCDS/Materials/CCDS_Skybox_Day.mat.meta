@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: bd875d653daa45f43aafc21faab6683b
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 276757
+  packageName: City Car Driving Simulator
+  packageVersion: 2.11
+  assetPath: Assets/CCDS/Materials/CCDS_Skybox_Day.mat
+  uploadId: 708118

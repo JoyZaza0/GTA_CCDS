@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 00c721adce9272a4aa4129f1f76253df
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 276757
+  packageName: City Car Driving Simulator
+  packageVersion: 2.11
+  assetPath: Assets/CCDS/Prefabs/Player Vehicles/Coupe.prefab
+  uploadId: 708118

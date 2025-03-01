@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 2d3c21b3247e62f4795eb28a15a4b5de
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 276757
+  packageName: City Car Driving Simulator
+  packageVersion: 2.11
+  assetPath: Assets/CCDS/Prefabs/Markers/CCDS_Marker_Race.prefab
+  uploadId: 708118

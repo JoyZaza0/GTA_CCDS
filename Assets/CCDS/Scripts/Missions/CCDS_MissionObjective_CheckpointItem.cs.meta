@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 6446054772212f842a9c755400e44db4
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 276757
+  packageName: City Car Driving Simulator
+  packageVersion: 2.11
+  assetPath: Assets/CCDS/Scripts/Missions/CCDS_MissionObjective_CheckpointItem.cs
+  uploadId: 708118

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7bcf140471f284a4c973e3883c0243ed
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 276757
+  packageName: City Car Driving Simulator
+  packageVersion: 2.11
+  assetPath: Assets/CCDS/Pump/GasPump.mat
+  uploadId: 708118

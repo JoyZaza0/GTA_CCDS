@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: abbd15f02c942064880f9707c7d1c91a
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 276757
+  packageName: City Car Driving Simulator
+  packageVersion: 2.11
+  assetPath: Assets/CCDS/Animations/Countdown.controller
+  uploadId: 708118

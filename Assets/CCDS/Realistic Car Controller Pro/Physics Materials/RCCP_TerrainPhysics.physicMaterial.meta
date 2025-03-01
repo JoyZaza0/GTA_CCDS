@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f0171c38dd450e0438255469f9697200
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 13400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 276757
+  packageName: City Car Driving Simulator
+  packageVersion: 2.11
+  assetPath: Assets/CCDS/Realistic Car Controller Pro/Physics Materials/RCCP_TerrainPhysics.physicMaterial
+  uploadId: 708118

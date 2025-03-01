@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 30a3b5f6ca82302478f2f278e151e4ef
+timeCreated: 1435340397
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 276757
+  packageName: City Car Driving Simulator
+  packageVersion: 2.11
+  assetPath: Assets/CCDS/Realistic Car Controller Pro/Prefabs/Particles/RCCP_SratchSparkles.prefab
+  uploadId: 708118

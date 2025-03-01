@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e76d1dcb5a2485a45b606b1c5fe7f507
+timeCreated: 1436056822
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 276757
+  packageName: City Car Driving Simulator
+  packageVersion: 2.11
+  assetPath: Assets/CCDS/Realistic Car Controller Pro/Prefabs/Particles/RCCP_WheelSlipSand.prefab
+  uploadId: 708118

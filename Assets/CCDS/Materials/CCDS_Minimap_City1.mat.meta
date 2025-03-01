@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c1e368180c0f3f649a30ed9c88f37cd8
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 276757
+  packageName: City Car Driving Simulator
+  packageVersion: 2.11
+  assetPath: Assets/CCDS/Materials/CCDS_Minimap_City1.mat
+  uploadId: 708118

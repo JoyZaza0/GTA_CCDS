@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 9b788e0f0f852684e9e7c344f115828a
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 276757
+  packageName: City Car Driving Simulator
+  packageVersion: 2.11
+  assetPath: Assets/CCDS/Realistic Car Controller Pro/Scripts/Scriptable Objects/RCCP_Settings.cs
+  uploadId: 708118

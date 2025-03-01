@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: c6be4daa8bae8e34092b17a670b67dbb
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 276757
+  packageName: City Car Driving Simulator
+  packageVersion: 2.11
+  assetPath: Assets/CCDS/Prefabs/UI/CCDS_Healthbar.prefab
+  uploadId: 708118

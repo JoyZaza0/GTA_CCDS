@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 215686337aa42db44a9118191aae7166
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 276757
+  packageName: City Car Driving Simulator
+  packageVersion: 2.11
+  assetPath: Assets/CCDS/Prefabs/Missions/Free/CCDS_Mission_Default.prefab
+  uploadId: 708118

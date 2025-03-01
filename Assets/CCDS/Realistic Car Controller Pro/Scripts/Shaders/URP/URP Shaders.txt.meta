@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: baa5c97fcb62afd46840709929a1bab1
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 276757
+  packageName: City Car Driving Simulator
+  packageVersion: 2.11
+  assetPath: Assets/CCDS/Realistic Car Controller Pro/Scripts/Shaders/URP/URP Shaders.txt
+  uploadId: 708118

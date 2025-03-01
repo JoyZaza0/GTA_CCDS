@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 17704f03149f406458b649ed5e5b13c3
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 276757
+  packageName: City Car Driving Simulator
+  packageVersion: 2.11
+  assetPath: Assets/CCDS/Prefabs/AI Vehicles/CCDS_Pursuit_1.prefab
+  uploadId: 708118

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 5334e6d9eb50a524791108140788233e
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 276757
+  packageName: City Car Driving Simulator
+  packageVersion: 2.11
+  assetPath: Assets/CCDS/Realistic Car Controller Pro/Prefabs/Particles/RCCP_WheelSparkles.prefab
+  uploadId: 708118

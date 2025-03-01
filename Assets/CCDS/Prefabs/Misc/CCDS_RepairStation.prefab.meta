@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 7cb2240e3b1253148a0e8f7954b17a21
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 276757
+  packageName: City Car Driving Simulator
+  packageVersion: 2.11
+  assetPath: Assets/CCDS/Prefabs/Misc/CCDS_RepairStation.prefab
+  uploadId: 708118

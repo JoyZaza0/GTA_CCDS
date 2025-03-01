@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 528fa3cd587d94d45ba6030536116123
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 276757
+  packageName: City Car Driving Simulator
+  packageVersion: 2.11
+  assetPath: Assets/CCDS/Editor/CCDS_Mission_TrailblazerEditor.cs
+  uploadId: 708118

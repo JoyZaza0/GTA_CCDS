@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d31605b5f003a1a4993bf7ba3fb0887a
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 276757
+  packageName: City Car Driving Simulator
+  packageVersion: 2.11
+  assetPath: Assets/CCDS/Models/Materials/CCDS_ArrowIndicatorHighlight.mat
+  uploadId: 708118

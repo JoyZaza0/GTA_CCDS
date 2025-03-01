@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 083e0896f90c07540a51dba9c727dde0
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 276757
+  packageName: City Car Driving Simulator
+  packageVersion: 2.11
+  assetPath: Assets/CCDS/Realistic Car Controller Pro/Prefabs/RCCP_Teleporter.prefab
+  uploadId: 708118

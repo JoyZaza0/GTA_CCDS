@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f302c2f07df3cf2458a7fc811819765d
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 276757
+  packageName: City Car Driving Simulator
+  packageVersion: 2.11
+  assetPath: Assets/CCDS/Materials/CCDS_Marker.mat
+  uploadId: 708118

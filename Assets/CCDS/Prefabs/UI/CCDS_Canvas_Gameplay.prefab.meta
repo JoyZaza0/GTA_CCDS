@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: a9afec993f669cc48a07284c79ac07bb
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 276757
+  packageName: City Car Driving Simulator
+  packageVersion: 2.11
+  assetPath: Assets/CCDS/Prefabs/UI/CCDS_Canvas_Gameplay.prefab
+  uploadId: 708118

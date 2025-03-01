@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: c22ae484448a8ea40a7c975e87decb49
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 276757
+  packageName: City Car Driving Simulator
+  packageVersion: 2.11
+  assetPath: Assets/CCDS/Realistic Car Controller Pro/Prefabs/Lights/RCCP_Light_Reverselight.prefab
+  uploadId: 708118

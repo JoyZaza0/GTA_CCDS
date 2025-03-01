@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 5be0d39a2fc07424db70a9068fed5741
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 276757
+  packageName: City Car Driving Simulator
+  packageVersion: 2.11
+  assetPath: Assets/CCDS/Scripts/Misc/CCDS_LensFlare.cs
+  uploadId: 708118
