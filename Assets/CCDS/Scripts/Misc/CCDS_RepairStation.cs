@@ -1,7 +1,7 @@
-//----------------------------------------------
+ï»¿//----------------------------------------------
 //        City Car Driving Simulator
 //
-// Copyright © 2014 - 2024 BoneCracker Games
+// Copyright ï¿½ 2014 - 2024 BoneCracker Games
 // https://www.bonecrackergames.com
 // Ekrem Bugra Ozdoganlar
 //
@@ -20,23 +20,38 @@ public class CCDS_RepairStation : ACCDS_Component {
     /// <summary>
     /// UI canvas for displaying the repair station text.
     /// </summary>
-    public Transform UI;
+	public Transform UI;
+	public Transform TeleportPoint;
+	[SerializeField] private int repair = 500;
 
     private void Update() {
 
-        //  Return if UI is not selected.
-        if (!UI)
-            return;
+	    if(BCG_EnterExitManager.Instance.activePlayer == null) 
+		    return;
+		    
 
-        //  Return if main camera couldn't found yet.
-        if (!Camera.main)
-            return;
-
-        //  Setting rotation of the UI.
-        UI.transform.rotation = Camera.main.transform.rotation;
+	    if(BCG_EnterExitManager.Instance.activePlayer.inVehicle)
+	    {
+		    if (UI && RCCP_SceneManager.Instance.activePlayerCamera)
+			    UI.rotation = RCCP_SceneManager.Instance.activePlayerCamera.transform.rotation;
+	    }
+	    else
+	    {
+		    if (UI && Camera.main)
+			    UI.rotation = Camera.main.transform.rotation;
+	    }
 
     }
-
+	
+	//[ContextMenu("Create Teleport")]
+	//public void CreateTeleport()
+	//{
+	//	TeleportPoint = GameObject.CreatePrimitive(PrimitiveType.Cube).transform;
+	//	TeleportPoint.SetParent(transform);
+	//	TeleportPoint.SetLocalPositionAndRotation(Vector3.zero,Quaternion.Euler(Vector3.zero));
+	//	TeleportPoint.name = "Teleport Point";		
+	//}
+	
     /// <summary>
     /// On trigger enter.
     /// </summary>
@@ -58,13 +73,15 @@ public class CCDS_RepairStation : ACCDS_Component {
         if (!player.CarController.Damage)
             return;
 
-        //  Repairing the player vehicle.
-        player.CarController.Damage.repaired = false;
-        player.CarController.Damage.repairNow = true;
-        player.damage = 0f;
+	    CCDS_UI_Informer.Instance.OpenRepairPopup(() => Repair(player));
 
-        //  Displaying info.
-        CCDS_UI_Informer.Instance.Info("Repaired!");
+        ////  Repairing the player vehicle.
+        //player.CarController.Damage.repaired = false;
+        //player.CarController.Damage.repairNow = true;
+        //player.damage = 0f;
+
+        ////  Displaying info.
+        //CCDS_UI_Informer.Instance.Info("Repaired!");
 
     }
 
@@ -79,16 +96,43 @@ public class CCDS_RepairStation : ACCDS_Component {
 
         //  If trigger is not player, return.
         if (!player)
-            return;
+	        return;
+            
 
-        //  If player doesn't have damage component, return.
+        ////  If player doesn't have damage component, return.
         if (!player.CarController.Damage)
             return;
+		
+		CCDS_UI_Informer.Instance.CloseRepairPopup();
 
         //  Exisitng the trigger zone, stop repairing the vehicle.
         player.CarController.Damage.repaired = true;
         player.CarController.Damage.repairNow = false;
 
     }
+    
+	public void Repair(CCDS_Player player)
+	{			
+		if(CCDS.GetMoney() >= repair)
+		{
+			player.CarController.Damage.repaired = false;
+			player.CarController.Damage.repairNow = true;
+			player.damage = 0f;
+
+			CCDS_UI_Informer.Instance.CloseRepairPopup();
+			CCDS_UI_Informer.Instance.Info("Repaired!");
+			
+			//player.CarController.Damage.repaired = true;
+			//player.CarController.Damage.repairNow = false;
+		}
+		else
+		{
+			CCDS_UI_Informer.Instance.CloseRepairPopup();
+			CCDS_UI_Informer.Instance.Info("Not Enough Money");
+		}
+	
+	}
+			
+	
 
 }

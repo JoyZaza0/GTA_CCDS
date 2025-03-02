@@ -58,18 +58,12 @@ public class CCDS_UI_Informer : ACCDS_Component {
     /// </summary>
 	private float timer = 0f;
     
-	//[SerializeField] private GameObject missionPopup;    
-	//[SerializeField] private GameObject missionFailedPopup;    
-	
-	//[SerializeField] private TextMeshProUGUI missionText;
-	//[SerializeField] private TextMeshProUGUI missionFailedText;
-	
-	//[SerializeField] private Button startMissionButton;
-	//[SerializeField] private Button canselButton;
 	[SerializeField] private MissionPopupUi missionPopup;
 	[SerializeField] private MissionVictoryPopupUI missionVictoryPopup;
 	[SerializeField] private MissionFailedPopup missionFailedPopup;
-
+	[SerializeField] private RepairPopup repairPopup;
+	
+	
     private void Update() {
 
         //  Disable the content if timer hits to 0.
@@ -140,5 +134,16 @@ public class CCDS_UI_Informer : ACCDS_Component {
 	public void CloseFailedPopup()
 	{
 		missionFailedPopup.gameObject.SetActive(false);
+	}
+	
+	public void OpenRepairPopup(UnityAction onRepair)
+	{
+		repairPopup.gameObject.SetActive(true);
+		repairPopup.Setup(onRepair);
+	}
+	
+	public void CloseRepairPopup()
+	{
+		repairPopup.gameObject.SetActive(false);
 	}
 }

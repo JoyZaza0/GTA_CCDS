@@ -42,8 +42,25 @@ public class BigmapManager : MonoBehaviour
 				
 			_lastClickedItem = clickedMinimapItem;
 			_teleportButton.gameObject.SetActive(true);
+			
+			return;
+		}
+		
+		CCDS_RepairStation repairStation = clickedMinimapItem.GetComponent<CCDS_RepairStation>();
+		
+		if(repairStation)
+		{
+			_missionName.text = "Repair Station";
+			_missionDescription.text = "Repair You Car";
+				
+			clickedMinimapItem.particlesHighlightMode = MinimapItem.ParticlesHighlightMode.Disabled;
+				
+			_lastClickedItem = clickedMinimapItem;
+			_teleportButton.gameObject.SetActive(true);
+			
 		}
 	}
+	
 	
 	public void ClearInfo()
 	{
@@ -59,25 +76,61 @@ public class BigmapManager : MonoBehaviour
 		
 		var marker = _lastClickedItem.GetComponent<CCDS_Marker>();
 		
-		if(marker == null) return;
-		
-		if(CCDS.GetMoney() >= price)
+		if(marker) 
 		{
-			if(BCG_EnterExitManager.Instance.activePlayer.inVehicle)
+			if(CCDS.GetMoney() >= price)
 			{
-				RCCP.Transport(marker.teleportPoint.position,marker.teleportPoint.rotation);
-				CCDS.ChangeMoney(-price);
-				GetComponent<MinimapManager>().OpenBigmap(false);
-				ClearInfo();
-			}
-			else 
-			{
-				var player = BCG_EnterExitManager.Instance.activePlayer.transform;
+				if(BCG_EnterExitManager.Instance.activePlayer.inVehicle)
+				{
+					RCCP.Transport(marker.teleportPoint.position,marker.teleportPoint.rotation);
+					CCDS.ChangeMoney(-price);
+					GetComponent<MinimapManager>().OpenBigmap(false);
+					ClearInfo();
+				}
+				else 
+				{
+					var player = BCG_EnterExitManager.Instance.activePlayer.transform;
 				
-				player.SetPositionAndRotation(marker.teleportPoint.position,marker.teleportPoint.rotation);
-				CCDS.ChangeMoney(-price);
-				GetComponent<MinimapManager>().OpenBigmap(false);
-				ClearInfo();
+					player.SetPositionAndRotation(marker.teleportPoint.position,marker.teleportPoint.rotation);
+					CCDS.ChangeMoney(-price);
+					GetComponent<MinimapManager>().OpenBigmap(false);
+					ClearInfo();
+				}
+			}
+			else
+			{
+				CCDS_UI_Informer.Instance.Info("Not Enough Money");
+			}
+			
+			return;
+		}
+		
+		var repairStation = _lastClickedItem.GetComponent<CCDS_RepairStation>();
+		
+		if(repairStation)
+		{
+			if(CCDS.GetMoney() >= price)
+			{
+				if(BCG_EnterExitManager.Instance.activePlayer.inVehicle)
+				{
+					RCCP.Transport(repairStation.TeleportPoint.position,repairStation.TeleportPoint.rotation);
+					CCDS.ChangeMoney(-price);
+					GetComponent<MinimapManager>().OpenBigmap(false);
+					ClearInfo();
+				}
+				else 
+				{
+					var player = BCG_EnterExitManager.Instance.activePlayer.transform;
+				
+					player.SetPositionAndRotation(repairStation.TeleportPoint.position,repairStation.TeleportPoint.rotation);
+					CCDS.ChangeMoney(-price);
+					GetComponent<MinimapManager>().OpenBigmap(false);
+					ClearInfo();
+				}
+			}
+			else
+			{
+				CCDS_UI_Informer.Instance.Info("Not Enough Money");
 			}
 		}
 		
