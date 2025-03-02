@@ -135,11 +135,13 @@ public class CCDS_GameplayManager : ACCDS_Manager {
 
     }
 
-    private void Start() {
+	private IEnumerator Start() {
 		
-	    SpawnPlayerCharacer();
+		SpawnPlayerCharacer();
+	    
+		yield return new WaitForEndOfFrame();
         //  Spawning the player vehicle.
-        SpawnPlayer();
+		SpawnPlayer();
 
         //  Starting the game with countdown.
         StartMission(countdownToStart);

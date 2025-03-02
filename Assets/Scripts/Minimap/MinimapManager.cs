@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using System.Collections;
 using System.Collections.Generic;
 using MTAssets.EasyMinimapSystem;
 using UnityEngine.UI;
@@ -41,6 +42,9 @@ public class MinimapManager : MonoBehaviour
 	
 	private void OnEnterVehicle(BCG_EnterExitPlayer player, BCG_EnterExitVehicle vehicle)
 	{
+		if(CCDS_SceneManager.Instance.levelType == CCDS_SceneManager.LevelType.MainMenu)
+			return;
+			
 		MinimapCamera camera = vehicle.GetComponent<MinimapCamera>();
 		
 		if(camera != null)
@@ -61,6 +65,9 @@ public class MinimapManager : MonoBehaviour
 	
 	private void OnExitVehicle(BCG_EnterExitPlayer player, BCG_EnterExitVehicle vehicle)
 	{
+		if(CCDS_SceneManager.Instance.levelType == CCDS_SceneManager.LevelType.MainMenu)
+			return;
+			
 		MinimapCamera camera = player.GetComponent<MinimapCamera>();
 		
 		if(camera != null)
@@ -88,13 +95,16 @@ public class MinimapManager : MonoBehaviour
 	
 	private void OnPlayerVehicleSpawned(BCG_EnterExitVehicle vehicle)
 	{
+		if(CCDS_SceneManager.Instance.levelType == CCDS_SceneManager.LevelType.MainMenu)
+			return;
+			
 		MinimapItem minimapItem = vehicle.GetComponent<MinimapItem>();
 		
 		if(minimapItem != null)
 		{
 			SetPlayerMinimapIcon(minimapItem,IconMode.Car,false);
 			SetAllMinimapItemRotationTarget(minimapItem,false);
-			SetAllMarkerMinimapItemsSize(minimapItem,false);
+			//SetAllMarkersMinimapItemsSize(minimapItem,false);
 		}
 		
 	}
@@ -111,7 +121,19 @@ public class MinimapManager : MonoBehaviour
 				_minimapRenderer.gameObject.SetActive(true);
 			}
 		}
+		
+		MinimapItem minimapItem = player.GetComponent<MinimapItem>();
+		
+		if(minimapItem != null)
+		{
+			SetAllMarkersMinimapItemsSize(minimapItem,false);
+		}
 	}
+	
+	//private IEnumerator Setup(MinimapItem minimapItem)
+	//{
+	//	yield return new WaitForEndOfFrame();	
+	//}
 	
 	private void SetPlayerMinimapIcon(MinimapItem item, IconMode iconMode,bool isBigMap)
 	{
@@ -128,7 +150,7 @@ public class MinimapManager : MonoBehaviour
 	}
 	
 	
-	private void SetAllMarkerMinimapItemsSize(MinimapItem item, bool isBigmap)
+	private void SetAllMarkersMinimapItemsSize(MinimapItem item, bool isBigmap)
 	{
 		//MinimapItem[] items = item.GetListOfAllMinimapItemsInThisScene();
 		MinimapItem[] items = _minimapRenderer.minimapItemsToHightlight.ToArray();
@@ -159,6 +181,8 @@ public class MinimapManager : MonoBehaviour
 				{
 					items[i].sizeOnMinimap = new Vector3(18,0,18);
 					items[i].sizeOnHighlight = 30;
+					
+					Debug.Log(items[i].name);
 					
 					if(items[i].GetComponent<CCDS_AI_Cop>())
 					{
@@ -270,7 +294,7 @@ public class MinimapManager : MonoBehaviour
 		if(playerItem != null)
 		{
 			SetAllMinimapItemRotationTarget(playerItem, isOpen);
-			SetAllMarkerMinimapItemsSize(playerItem, isOpen);
+			SetAllMarkersMinimapItemsSize(playerItem, isOpen);
 		}
 		
 	
