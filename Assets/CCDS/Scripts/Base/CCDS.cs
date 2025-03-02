@@ -62,7 +62,7 @@ public class CCDS {
 		return CCDS_SaveGameManager.saveData.playerCharacterPosition;
 	}
 	
-	public void SetPlayerCharacterPosition(Vector3 position)
+	public static void SetPlayerCharacterPosition(Vector3 position)
 	{
 		Load();
 		CCDS_SaveGameManager.saveData.playerCharacterPosition = position;

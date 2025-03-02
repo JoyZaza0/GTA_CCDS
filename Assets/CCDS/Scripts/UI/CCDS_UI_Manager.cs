@@ -1,4 +1,4 @@
-//----------------------------------------------
+﻿//----------------------------------------------
 //        City Car Driving Simulator
 //
 // Copyright � 2014 - 2024 BoneCracker Games
@@ -546,7 +546,6 @@ public class CCDS_UI_Manager : ACCDS_Manager {
             timeFillImage.fillAmount = 0f;
 
         }
-
     }
 
     /// <summary>
@@ -603,7 +602,9 @@ public class CCDS_UI_Manager : ACCDS_Manager {
 
         //  Enabling the loading panel.
         if (loadingPanel)
-            loadingPanel.SetActive(true);
+	        loadingPanel.SetActive(true);
+            
+	    CCDS.SetPlayerCharacterPosition(BCG_EnterExitManager.Instance.activePlayer.transform.position);
 
         CCDS.MainMenu();
 
