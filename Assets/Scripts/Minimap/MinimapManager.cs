@@ -40,6 +40,11 @@ public class MinimapManager : MonoBehaviour
 		BCG_EnterExitPlayer.OnBCGPlayerSpawned -= OnCharacterSpawned;
 	}
 	
+	private void Start()
+	{
+		SetAllMarkersMinimapItemsSize(false);
+	}
+	
 	private void OnEnterVehicle(BCG_EnterExitPlayer player, BCG_EnterExitVehicle vehicle)
 	{
 		if(CCDS_SceneManager.Instance.levelType == CCDS_SceneManager.LevelType.MainMenu)
@@ -104,7 +109,6 @@ public class MinimapManager : MonoBehaviour
 		{
 			SetPlayerMinimapIcon(minimapItem,IconMode.Car,false);
 			SetAllMinimapItemRotationTarget(minimapItem,false);
-			//SetAllMarkersMinimapItemsSize(minimapItem,false);
 		}
 		
 	}
@@ -123,21 +127,9 @@ public class MinimapManager : MonoBehaviour
 				_minimapRenderer.gameObject.SetActive(true);
 			}
 		}
-		
-		MinimapItem minimapItem = player.GetComponent<MinimapItem>();
-		
-		if(minimapItem != null)
-		{
-			SetAllMarkersMinimapItemsSize(minimapItem,false);
-		}
 	}
 	
-	//private IEnumerator Setup(MinimapItem minimapItem)
-	//{
-	//	yield return new WaitForEndOfFrame();	
-	//}
-	
-	private void SetPlayerMinimapIcon(MinimapItem item, IconMode iconMode,bool isBigMap)
+private void SetPlayerMinimapIcon(MinimapItem item, IconMode iconMode,bool isBigMap)
 	{
 		if(iconMode == IconMode.Player)
 		{
@@ -152,9 +144,8 @@ public class MinimapManager : MonoBehaviour
 	}
 	
 	
-	private void SetAllMarkersMinimapItemsSize(MinimapItem item, bool isBigmap)
+	private void SetAllMarkersMinimapItemsSize(bool isBigmap)
 	{
-		//MinimapItem[] items = item.GetListOfAllMinimapItemsInThisScene();
 		MinimapItem[] items = _minimapRenderer.minimapItemsToHightlight.ToArray();
 		
 		if(items != null)
@@ -296,7 +287,7 @@ public class MinimapManager : MonoBehaviour
 		if(playerItem != null)
 		{
 			SetAllMinimapItemRotationTarget(playerItem, isOpen);
-			SetAllMarkersMinimapItemsSize(playerItem, isOpen);
+			SetAllMarkersMinimapItemsSize(isOpen);
 		}
 		
 	
