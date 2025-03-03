@@ -111,6 +111,8 @@ public class MinimapManager : MonoBehaviour
 			SetAllMinimapItemRotationTarget(minimapItem,false);
 		}
 		
+	
+		
 	}
 	
 	private void OnCharacterSpawned(BCG_EnterExitPlayer player)
@@ -129,7 +131,8 @@ public class MinimapManager : MonoBehaviour
 		}
 	}
 	
-private void SetPlayerMinimapIcon(MinimapItem item, IconMode iconMode,bool isBigMap)
+
+	private void SetPlayerMinimapIcon(MinimapItem item, IconMode iconMode,bool isBigMap)
 	{
 		if(iconMode == IconMode.Player)
 		{
@@ -174,9 +177,7 @@ private void SetPlayerMinimapIcon(MinimapItem item, IconMode iconMode,bool isBig
 				{
 					items[i].sizeOnMinimap = new Vector3(18,0,18);
 					items[i].sizeOnHighlight = 30;
-					
-					Debug.Log(items[i].name);
-					
+										
 					if(items[i].GetComponent<CCDS_AI_Cop>())
 					{
 						continue;

@@ -1,7 +1,7 @@
-//----------------------------------------------
+ï»¿//----------------------------------------------
 //        City Car Driving Simulator
 //
-// Copyright © 2014 - 2024 BoneCracker Games
+// Copyright ï¿½ 2014 - 2024 BoneCracker Games
 // https://www.bonecrackergames.com
 // Ekrem Bugra Ozdoganlar
 //
@@ -43,6 +43,7 @@ public class CCDS_GameplayManagerEditor : Editor {
         EditorGUILayout.PropertyField(serializedObject.FindProperty("spawnPoint"));
         EditorGUILayout.PropertyField(serializedObject.FindProperty("countdownToStart"));
         EditorGUILayout.PropertyField(serializedObject.FindProperty("isDay"));
+	    //EditorGUILayout.PropertyField(serializedObject.FindProperty("UsePlayerCharacer"));
 
         EditorGUILayout.Space();
 

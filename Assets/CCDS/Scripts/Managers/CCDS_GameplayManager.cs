@@ -116,7 +116,9 @@ public class CCDS_GameplayManager : ACCDS_Manager {
 	private ACCDS_Mission defaultMission;
 	public BCG_EnterExitPlayer playerCharacer;
 
-    private float oldScore = 0f;
+	private float oldScore = 0f;
+	//private bool usePlayerCharacer;
+	//public bool UsePlayerCharacer;
 
     private void Awake() {
 
@@ -135,14 +137,13 @@ public class CCDS_GameplayManager : ACCDS_Manager {
 
     }
 
-	private IEnumerator Start() {
+	private void Start() {
 		
 		SpawnPlayerCharacer();
 	    
-		yield return new WaitForEndOfFrame();
         //  Spawning the player vehicle.
 		SpawnPlayer();
-
+		
         //  Starting the game with countdown.
         StartMission(countdownToStart);
 
@@ -337,7 +338,7 @@ public class CCDS_GameplayManager : ACCDS_Manager {
         }
 
         //  If spawn point couldn't found, inform and create.
-        if (spawnPoint == null) {
+	    //if (spawnPoint == null) {
 
 	        // Debug.LogError("Spawn point couldn't found, creating it at vector3 zero. Be sure to create a spawn point and assign it in the CCDS_GameplayManager!");
 
@@ -345,16 +346,23 @@ public class CCDS_GameplayManager : ACCDS_Manager {
             //spawnPoint.transform.SetPositionAndRotation(Vector3.zero, Quaternion.identity);
             //spawnPoint.transform.position += Vector3.up * 1.5f;
 	        //spawnPoint.transform.position += Vector3.forward * 15f;
-	        SpawnPointManager spawnPointManager = FindAnyObjectByType<SpawnPointManager>();
-	        
-	        if(spawnPointManager)
-	        {
-		        spawnPoint = spawnPointManager.GetClosestPoint(playerCharacer.transform);
-	        }
 			
 	        
-        }
-	  
+	    // }
+	   
+	    Vector3 playerPosition = CCDS.GetPlayerCharacterPosition();
+	    
+	    if(playerPosition != Vector3.zero)
+	    {
+		    SpawnPointManager spawnPointManager = FindAnyObjectByType<SpawnPointManager>();
+	        
+		    if(spawnPointManager)
+		    {
+			    spawnPoint = spawnPointManager.GetClosestPoint(playerCharacer.transform);
+		    }
+	    }
+	
+	    
         //  Spawning RCCP vehicle with controllable state.
 	    // player = RCCP.SpawnRCC(CCDS_PlayerVehicles.Instance.playerVehicles[lastSelectedVehicleIndex].vehicle, spawnPoint.transform.position, spawnPoint.transform.rotation, true, true, CCDS_Settings.Instance.startEngineAtStart).GetComponent<CCDS_Player>();
 	    player = Instantiate(CCDS_PlayerVehicles.Instance.playerVehicles[lastSelectedVehicleIndex].vehicle, spawnPoint.transform.position, spawnPoint.transform.rotation).GetComponent<CCDS_Player>();
