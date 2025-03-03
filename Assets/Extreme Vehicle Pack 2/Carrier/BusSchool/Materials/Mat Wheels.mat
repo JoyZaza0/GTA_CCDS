@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Mat Wheels
-  m_Shader: {fileID: 4800000, guid: 124e8c1d64ac24c13aa406f05ca2d222, type: 3}
+  m_Shader: {fileID: 4800000, guid: a2a06e22c08354d9699356710b69ca9c, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
@@ -19,7 +19,6 @@ Material:
   - MATCAP_PERSPECTIVE
   - OUTLINE_PASS_DISABLED
   - REFLECTION
-  - REFLECTION_TEX
   - SHADOWS_ENABLED
   - _DETAILBLEND_MULTIPLY
   - _DETAILUV_UV1
@@ -48,6 +47,7 @@ Material:
   stringTagMap: {}
   disabledShaderPasses:
   - ALWAYS
+  - SRPDEFAULTUNLIT
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
@@ -170,6 +170,7 @@ Material:
     - _Cull: 2
     - _Cutoff: 0.5
     - _Cutout: 0
+    - _CutoutCutoff: 0.5
     - _DestBlend: 0
     - _DetailBlend: 2
     - _DetailBrightness: 1
@@ -218,6 +219,7 @@ Material:
     - _MatCapPerspective: 1
     - _MatCapStatic: 0
     - _Metallic: 0
+    - _MixedLighting: 0
     - _Mode: 0
     - _NormalStrength: 1
     - _NormalUV: 0
@@ -232,9 +234,12 @@ Material:
     - _OutlineGroup: 0
     - _OutlinePass: 0
     - _OutlineWidth: 0.002
+    - _OutlineWidthIndependent: 0
+    - _OutlineZPos: 0
     - _Parallax: 0.02
     - _Plant: 0
     - _PlantBaseHeight: 0
+    - _PlantLocal: 0
     - _PlantPhaseVariation: 0.3
     - _PlantSwayAmount: 0.15
     - _PlantSwaySpeed: 1
@@ -272,6 +277,24 @@ Material:
     - _TransparencyMaskAmount: 1
     - _TransparencyMaskContrast: 1
     - _UVSec: 0
+    - _UVTile: 0
+    - _UVTileDiscardUV: 1
+    - _UVTileV0U0: 0
+    - _UVTileV0U1: 0
+    - _UVTileV0U2: 0
+    - _UVTileV0U3: 0
+    - _UVTileV1U0: 0
+    - _UVTileV1U1: 0
+    - _UVTileV1U2: 0
+    - _UVTileV1U3: 0
+    - _UVTileV2U0: 0
+    - _UVTileV2U1: 0
+    - _UVTileV2U2: 0
+    - _UVTileV2U3: 0
+    - _UVTileV3U0: 0
+    - _UVTileV3U1: 0
+    - _UVTileV3U2: 0
+    - _UVTileV3U3: 0
     - _VertexColors: 0
     - _VertexColorsAmount: 1
     - _VertexColorsContrast: 1
@@ -303,6 +326,7 @@ Material:
     - _SpecColor: {r: 0.36764705, g: 0.36764705, b: 0.36764705, a: 1}
     - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
+  m_AllowLocking: 1
 --- !u!114 &2495560237089764369
 MonoBehaviour:
   m_ObjectHideFlags: 11
