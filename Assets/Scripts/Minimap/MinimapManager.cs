@@ -111,6 +111,8 @@ public class MinimapManager : MonoBehaviour
 	
 	private void OnCharacterSpawned(BCG_EnterExitPlayer player)
 	{
+		_trafficSystem.player = player.transform;
+		
 		var camera = player.GetComponent<MinimapCamera>();
 		
 		if(_minimapRenderer.gameObject.active == false)
