@@ -83,7 +83,8 @@ public class BCG_EnterExitPlayer : MonoBehaviour {
     /// </summary>
     /// <param name="player"></param>
     public delegate void onBCGPlayerExitedFromAVehicle(BCG_EnterExitPlayer player, BCG_EnterExitVehicle vehicle);
-    public static event onBCGPlayerExitedFromAVehicle OnBCGPlayerExitedFromAVehicle;
+	public static event onBCGPlayerExitedFromAVehicle OnBCGPlayerExitedFromAVehicle;
+	public GameObject Interact;
 
     private void Awake() {
 
@@ -91,7 +92,9 @@ public class BCG_EnterExitPlayer : MonoBehaviour {
             inVehicle = null;
 
         if (!isTPSController)
-            characterCamera = GetComponentInChildren<Camera>();
+	        characterCamera = GetComponentInChildren<Camera>();
+            
+	    Interact = GameObject.FindGameObjectWithTag(nameof(Interact));
 
     }
 
@@ -188,9 +191,11 @@ public class BCG_EnterExitPlayer : MonoBehaviour {
             targetVehicle = null;
 
         }
-
+		
+	    Interact.SetActive(showGui);
     }
 
+	#if UNITY_EDITOR
     private void OnGUI() {
 
         if (showGui) {
@@ -201,7 +206,7 @@ public class BCG_EnterExitPlayer : MonoBehaviour {
         }
 
     }
-
+#endif
     private void OnDestroy() {
 
         if (OnBCGPlayerDestroyed != null)

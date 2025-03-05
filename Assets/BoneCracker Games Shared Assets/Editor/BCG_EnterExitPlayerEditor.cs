@@ -37,6 +37,7 @@ public class BCG_EnterExitPlayerEditor : Editor {
         }
 
         EditorGUILayout.PropertyField(serializedObject.FindProperty("playerStartsAsInVehicle"), new GUIContent("Player Starts As In Vehicle"), false);
+	    // EditorGUILayout.PropertyField(serializedObject.FindProperty("Interact"), new GUIContent("Drive Vehicle UI button"), false);
 
         if (prop.playerStartsAsInVehicle) {
 

@@ -35,6 +35,7 @@ TagManager:
   - Marcador
   - Blocks
   - DefaultPlayerPosition
+  - Interact
   layers:
   - Default
   - TransparentFX

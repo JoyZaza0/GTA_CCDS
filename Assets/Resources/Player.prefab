@@ -1871,13 +1871,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isTPSController: 1
-  rayHeight: 1
+  rayHeight: 0.9
   canControl: 1
   showGui: 0
   targetVehicle: {fileID: 0}
   playerStartsAsInVehicle: 0
   inVehicle: {fileID: 0}
   characterCamera: {fileID: 7690569358307249143}
+  Interact: {fileID: 0}
 --- !u!114 &7408877290126099737
 MonoBehaviour:
   m_ObjectHideFlags: 0
