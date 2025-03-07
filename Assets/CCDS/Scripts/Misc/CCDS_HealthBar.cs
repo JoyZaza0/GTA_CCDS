@@ -1,7 +1,7 @@
-//----------------------------------------------
+ï»¿//----------------------------------------------
 //        City Car Driving Simulator
 //
-// Copyright © 2014 - 2024 BoneCracker Games
+// Copyright ï¿½ 2014 - 2024 BoneCracker Games
 // https://www.bonecrackergames.com
 // Ekrem Bugra Ozdoganlar
 //
@@ -91,8 +91,10 @@ public class CCDS_HealthBar : ACCDS_Component {
         transform.rotation = Vehicle.transform.rotation;
 
         //  Rotate the slider along with main camera if found.
-        if (Camera.main)
-            transform.rotation = Camera.main.transform.rotation;
+        //if (Camera.main)
+        //    transform.rotation = Camera.main.transform.rotation;
+	    if (RCCP_SceneManager.Instance.activePlayerCamera)
+		    transform.rotation = RCCP_SceneManager.Instance.activePlayerCamera.transform.rotation;
 
     }
 
