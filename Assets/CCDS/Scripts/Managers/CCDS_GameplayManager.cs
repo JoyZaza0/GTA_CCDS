@@ -709,6 +709,7 @@ public class CCDS_GameplayManager : ACCDS_Manager {
 	
 	private void OnApplicationQuit()
 	{
-		CCDS.SetPlayerCharacterPosition(BCG_EnterExitManager.Instance.activePlayer.transform.position);
+		if(!BCG_EnterExitManager.Instance.activePlayer.inVehicle)
+			CCDS.SetPlayerCharacterPosition(BCG_EnterExitManager.Instance.activePlayer.transform.position);
 	}
 }
