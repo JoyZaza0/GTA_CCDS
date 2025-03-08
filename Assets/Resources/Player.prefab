@@ -1139,7 +1139,7 @@ MonoBehaviour:
   targetVehicle: {fileID: 0}
   playerStartsAsInVehicle: 0
   inVehicle: {fileID: 0}
-  characterCamera: {fileID: 0}
+  characterCamera: {fileID: 3815272578834277894}
   Interact: {fileID: 0}
 --- !u!114 &5241333268864595299
 MonoBehaviour:
