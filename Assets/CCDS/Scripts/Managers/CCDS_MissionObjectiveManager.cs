@@ -111,14 +111,18 @@ public class CCDS_MissionObjectiveManager : ACCDS_Manager {
 		if(defaultMission is CCDS_MissionObjective_Checkpoint)
 		{
 			currentMission = defaultMission as CCDS_MissionObjective_Checkpoint;
+			CCDS_Settings.Instance.showArrowIndicator = true;
 		}
 		else if(defaultMission is CCDS_MissionObjective_Trailblazer)
 		{
 			currentMission = defaultMission as CCDS_MissionObjective_Trailblazer;
+			CCDS_Settings.Instance.showArrowIndicator = true;
 		}
 		else if(defaultMission is CCDS_MissionObjective_Race)
 		{
 			currentMission = defaultMission as CCDS_MissionObjective_Race;
+			CCDS_Settings.Instance.showArrowIndicator = false;
+			CCDS_Settings.Instance.showHealthBar = false;
 		}
 	
 	}
