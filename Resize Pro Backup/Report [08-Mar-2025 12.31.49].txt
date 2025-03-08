@@ -1,0 +1,133 @@
+[1]
+Assets/Adventure_Character/Materials/Man_Body.mat
+-----------------------------------------------------
+[old GUID: 14a564f7fa4e12844919f637dc3c17ce] Assets/Adventure_Character/Textures/Man_Body_Albedo.tga
+[new GUID: 8bfe71e1959f0044c89a8078f2fbc7e8] Assets/Adventure_Character/Textures/Resize Pro/Man_Body_Albedo.png
+ 
+[old GUID: d5db1c8cea8400c4bb5b207f289ca945] Assets/Adventure_Character/Textures/Man_Body_Ao.tga
+[new GUID: c0343c80d02a72c4c860ea874baee138] Assets/Adventure_Character/Textures/Resize Pro/Man_Body_Ao.png
+ 
+[old GUID: 72cb5a51a442407438404bf56648f700] Assets/Adventure_Character/Textures/Man_Body_Metallic.tga
+[new GUID: 294100e2dbdf3154fb03d5dd6f739771] Assets/Adventure_Character/Textures/Resize Pro/Man_Body_Metallic.png
+ 
+[old GUID: a1b6bb340da40bc41b0c41ce37a80cb4] Assets/Adventure_Character/Textures/Man_Body_Normals.tga
+[new GUID: ef5a712d067f91c41bbd1cab2d102fee] Assets/Adventure_Character/Textures/Resize Pro/Man_Body_Normals.png
+ 
+
+# # #
+
+
+[2]
+Assets/Adventure_Character/Materials/Man_Cloth_Down_01.mat
+--------------------------------------------------------------
+[old GUID: cf214826ff270a248b58074124311876] Assets/Adventure_Character/Textures/Man_Cloth_Down_Albedo_01.tga
+[new GUID: fac23571249dadc4fbde63fb3312a1f2] Assets/Adventure_Character/Textures/Resize Pro/Man_Cloth_Down_Albedo_01.png
+ 
+[old GUID: edd22e070a7d8cd439892d92f4878181] Assets/Adventure_Character/Textures/Man_Cloth_Down_Ao.tga
+[new GUID: 6f78eb72cf4526844815f6c25d14ce11] Assets/Adventure_Character/Textures/Resize Pro/Man_Cloth_Down_Ao.png
+ 
+[old GUID: fbb02d1059395f94ca8cdb1d9cc8b9d3] Assets/Adventure_Character/Textures/Man_Cloth_Down_Metallic.tga
+[new GUID: 286e913a17058be4db973cd5715be256] Assets/Adventure_Character/Textures/Resize Pro/Man_Cloth_Down_Metallic.png
+ 
+[old GUID: f2e1f6178c8683c4ba8c0a575ab45e0f] Assets/Adventure_Character/Textures/Man_Cloth_Down_Normals.tga
+[new GUID: 753f652c35b74e744894b83f0bd4b8c1] Assets/Adventure_Character/Textures/Resize Pro/Man_Cloth_Down_Normals.png
+ 
+
+# # #
+
+
+[3]
+Assets/Adventure_Character/Materials/Man_Cloth_Down_02.mat
+--------------------------------------------------------------
+[old GUID: 0fe73a5f100981e4a96c82f0934a3df9] Assets/Adventure_Character/Textures/Man_Cloth_Down_Albedo_02.tga
+[new GUID: 1b71a7b0bf1031242b4e3703cf6577ea] Assets/Adventure_Character/Textures/Resize Pro/Man_Cloth_Down_Albedo_02.png
+ 
+[old GUID: edd22e070a7d8cd439892d92f4878181] Assets/Adventure_Character/Textures/Man_Cloth_Down_Ao.tga
+[new GUID: 6f78eb72cf4526844815f6c25d14ce11] Assets/Adventure_Character/Textures/Resize Pro/Man_Cloth_Down_Ao.png
+ 
+[old GUID: fbb02d1059395f94ca8cdb1d9cc8b9d3] Assets/Adventure_Character/Textures/Man_Cloth_Down_Metallic.tga
+[new GUID: 286e913a17058be4db973cd5715be256] Assets/Adventure_Character/Textures/Resize Pro/Man_Cloth_Down_Metallic.png
+ 
+[old GUID: f2e1f6178c8683c4ba8c0a575ab45e0f] Assets/Adventure_Character/Textures/Man_Cloth_Down_Normals.tga
+[new GUID: 753f652c35b74e744894b83f0bd4b8c1] Assets/Adventure_Character/Textures/Resize Pro/Man_Cloth_Down_Normals.png
+ 
+
+# # #
+
+
+[4]
+Assets/Adventure_Character/Materials/Man_Cloth_Down_03.mat
+--------------------------------------------------------------
+[old GUID: 71aeb812376f4044b868498af0c5a09e] Assets/Adventure_Character/Textures/Man_Cloth_Down_Albedo_03.tga
+[new GUID: f416feb5e3fdaae41a02317b989fcbf9] Assets/Adventure_Character/Textures/Resize Pro/Man_Cloth_Down_Albedo_03.png
+ 
+[old GUID: edd22e070a7d8cd439892d92f4878181] Assets/Adventure_Character/Textures/Man_Cloth_Down_Ao.tga
+[new GUID: 6f78eb72cf4526844815f6c25d14ce11] Assets/Adventure_Character/Textures/Resize Pro/Man_Cloth_Down_Ao.png
+ 
+[old GUID: fbb02d1059395f94ca8cdb1d9cc8b9d3] Assets/Adventure_Character/Textures/Man_Cloth_Down_Metallic.tga
+[new GUID: 286e913a17058be4db973cd5715be256] Assets/Adventure_Character/Textures/Resize Pro/Man_Cloth_Down_Metallic.png
+ 
+[old GUID: f2e1f6178c8683c4ba8c0a575ab45e0f] Assets/Adventure_Character/Textures/Man_Cloth_Down_Normals.tga
+[new GUID: 753f652c35b74e744894b83f0bd4b8c1] Assets/Adventure_Character/Textures/Resize Pro/Man_Cloth_Down_Normals.png
+ 
+
+# # #
+
+
+[5]
+Assets/Adventure_Character/Materials/Man_Cloth_Up_01.mat
+------------------------------------------------------------
+[old GUID: 5261f9f7e9518de418e30e30514a7d58] Assets/Adventure_Character/Textures/Man_Cloth_Up_Albedo_01.tga
+[new GUID: a0a0c26c243532d459e0a49638e066f3] Assets/Adventure_Character/Textures/Resize Pro/Man_Cloth_Up_Albedo_01.png
+ 
+[old GUID: eded4b4cdcba5c444b98bc1734e3f36b] Assets/Adventure_Character/Textures/Man_Cloth_Up_Ao.tga
+[new GUID: 48c6ae27880625f48baf5e003c1f2d0d] Assets/Adventure_Character/Textures/Resize Pro/Man_Cloth_Up_Ao.png
+ 
+[old GUID: 7fa7c458a909d1f41b606a06bbf8987f] Assets/Adventure_Character/Textures/Man_Cloth_Up_Metallic.tga
+[new GUID: 09d9eaeb3fb34b240b37c5930d64c5b0] Assets/Adventure_Character/Textures/Resize Pro/Man_Cloth_Up_Metallic.png
+ 
+[old GUID: de91175a07959b449a003d1de1c6279e] Assets/Adventure_Character/Textures/Man_Cloth_Up_Normals.tga
+[new GUID: d27d97d07f2460f49a166ba4b63c6621] Assets/Adventure_Character/Textures/Resize Pro/Man_Cloth_Up_Normals.png
+ 
+
+# # #
+
+
+[6]
+Assets/Adventure_Character/Materials/Man_Cloth_Up_02.mat
+------------------------------------------------------------
+[old GUID: 758821f6ff36cf443ab0c41209186a93] Assets/Adventure_Character/Textures/Man_Cloth_Up_Albedo_02.tga
+[new GUID: a3cba3a5d85e9e54ba4bde0a8cb73e18] Assets/Adventure_Character/Textures/Resize Pro/Man_Cloth_Up_Albedo_02.png
+ 
+[old GUID: eded4b4cdcba5c444b98bc1734e3f36b] Assets/Adventure_Character/Textures/Man_Cloth_Up_Ao.tga
+[new GUID: 48c6ae27880625f48baf5e003c1f2d0d] Assets/Adventure_Character/Textures/Resize Pro/Man_Cloth_Up_Ao.png
+ 
+[old GUID: 7fa7c458a909d1f41b606a06bbf8987f] Assets/Adventure_Character/Textures/Man_Cloth_Up_Metallic.tga
+[new GUID: 09d9eaeb3fb34b240b37c5930d64c5b0] Assets/Adventure_Character/Textures/Resize Pro/Man_Cloth_Up_Metallic.png
+ 
+[old GUID: de91175a07959b449a003d1de1c6279e] Assets/Adventure_Character/Textures/Man_Cloth_Up_Normals.tga
+[new GUID: d27d97d07f2460f49a166ba4b63c6621] Assets/Adventure_Character/Textures/Resize Pro/Man_Cloth_Up_Normals.png
+ 
+
+# # #
+
+
+[7]
+Assets/Adventure_Character/Materials/Man_Cloth_Up_03.mat
+------------------------------------------------------------
+[old GUID: af9d8bdb5bff58c449c7fa4f414869f3] Assets/Adventure_Character/Textures/Man_Cloth_Up_Albedo_03.tga
+[new GUID: 9ad807a74b2d9f948b2defec286f12a2] Assets/Adventure_Character/Textures/Resize Pro/Man_Cloth_Up_Albedo_03.png
+ 
+[old GUID: eded4b4cdcba5c444b98bc1734e3f36b] Assets/Adventure_Character/Textures/Man_Cloth_Up_Ao.tga
+[new GUID: 48c6ae27880625f48baf5e003c1f2d0d] Assets/Adventure_Character/Textures/Resize Pro/Man_Cloth_Up_Ao.png
+ 
+[old GUID: 7fa7c458a909d1f41b606a06bbf8987f] Assets/Adventure_Character/Textures/Man_Cloth_Up_Metallic.tga
+[new GUID: 09d9eaeb3fb34b240b37c5930d64c5b0] Assets/Adventure_Character/Textures/Resize Pro/Man_Cloth_Up_Metallic.png
+ 
+[old GUID: de91175a07959b449a003d1de1c6279e] Assets/Adventure_Character/Textures/Man_Cloth_Up_Normals.tga
+[new GUID: d27d97d07f2460f49a166ba4b63c6621] Assets/Adventure_Character/Textures/Resize Pro/Man_Cloth_Up_Normals.png
+ 
+
+# # #
+
+

@@ -191,8 +191,9 @@ public class BCG_EnterExitPlayer : MonoBehaviour {
             targetVehicle = null;
 
         }
-		
-	    Interact.SetActive(showGui);
+        
+	    if(Interact)
+	    	Interact.SetActive(showGui);
     }
 
 	#if UNITY_EDITOR
