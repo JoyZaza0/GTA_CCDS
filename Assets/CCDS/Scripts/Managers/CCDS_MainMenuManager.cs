@@ -106,7 +106,10 @@ public class CCDS_MainMenuManager : ACCDS_Manager {
 	        //RCCP_CarController spawned = RCCP.SpawnRCC(CCDS_PlayerVehicles.Instance.playerVehicles[i].vehicle, spawnPoint.transform.position, spawnPoint.transform.rotation, true, false, false);
 	        BCG_EnterExitVehicle spawned = Instantiate(CCDS_PlayerVehicles.Instance.playerVehicles[i].vehicle, spawnPoint.transform.position, spawnPoint.transform.rotation) as BCG_EnterExitVehicle;
             allPlayerVehicles.Add(spawned);
-
+			
+	        spawned.CarController.SetCanControl(false);
+	        spawned.CarController.SetEngine(false);
+	        
 	        if (spawned.CarController.Lights)
 		        spawned.CarController.Lights.lowBeamHeadlights = true;
             else

@@ -367,7 +367,7 @@ public class CCDS_GameplayManager : ACCDS_Manager {
 	    // player = RCCP.SpawnRCC(CCDS_PlayerVehicles.Instance.playerVehicles[lastSelectedVehicleIndex].vehicle, spawnPoint.transform.position, spawnPoint.transform.rotation, true, true, CCDS_Settings.Instance.startEngineAtStart).GetComponent<CCDS_Player>();
 	    player = Instantiate(CCDS_PlayerVehicles.Instance.playerVehicles[lastSelectedVehicleIndex].vehicle, spawnPoint.transform.position, spawnPoint.transform.rotation).GetComponent<CCDS_Player>();
 	    player.CarController.SetCanControl(false);
-	    player.CarController.KillEngine();
+	    player.CarController.SetEngine(CCDS_Settings.Instance.startEngineAtStart);
 	    
         //  Setting headlight of the vehicle.
         if (player.CarController.Lights != null)
