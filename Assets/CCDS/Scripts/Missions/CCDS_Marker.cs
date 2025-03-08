@@ -82,21 +82,33 @@ public class CCDS_Marker : ACCDS_Component {
 
         CCDS_Player triggeredPlayer = other.GetComponentInParent<CCDS_Player>();
 
-        if (!triggeredPlayer)
-            return;
-
-        //  If triggered vehicle and local player vehicle is the same, load the main menu.
-        if (!Equals(player.gameObject, triggeredPlayer.gameObject))
-            return;
-
-        //  Calling ''EnteredMarker'' on the gameplay manager to initialize and start the mission.
-	    //CCDS_GameplayManager.Instance.EnteredMarker(this);
-	    string info = connectedMission.misssionStartInfo;
-	    CCDS_UI_Informer.Instance.OpenMissionPoup(info,() => 
+        //if (!triggeredPlayer)
+	    //    return;
+            
+	    if(triggeredPlayer)
 	    {
-	    	CCDS_GameplayManager.Instance.EnteredMarker(this);
-		    CCDS_UI_Informer.Instance.CloseMissionPopup();
-	    });
+		    //  If triggered vehicle and local player vehicle is the same, load the main menu.
+		    if (!Equals(player.gameObject, triggeredPlayer.gameObject))
+			    return;
+
+		    //  Calling ''EnteredMarker'' on the gameplay manager to initialize and start the mission.
+		    //CCDS_GameplayManager.Instance.EnteredMarker(this);
+		    string info = connectedMission.misssionStartInfo;
+		    CCDS_UI_Informer.Instance.OpenMissionPoup(info,() => 
+		    {
+			    CCDS_GameplayManager.Instance.EnteredMarker(this);
+			    CCDS_UI_Informer.Instance.CloseMissionPopup();
+		    });
+		    
+		    return;
+	    }
+	    
+	    BCG_EnterExitPlayer playerCharacter = other.GetComponentInParent<BCG_EnterExitPlayer>();
+	    
+	    if(playerCharacter)
+	    {
+	    	CCDS_UI_Informer.Instance.Info("For This Mission Need Vehicle");
+	    }
     }
     
 	private void OnTriggerExit(Collider other)
