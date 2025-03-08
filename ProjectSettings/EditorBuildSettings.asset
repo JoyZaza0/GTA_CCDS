@@ -7,21 +7,9 @@ EditorBuildSettings:
   m_Scenes:
   - enabled: 1
     path: Assets/Scenes/Garage.unity
-    guid: 416e981c28d92d540bb9cb03840c9638
+    guid: 92943a10791e524489ee681baffb0688
   - enabled: 1
     path: Assets/Scenes/City.unity
-    guid: 93f0b5c4e2c9e10469dcb19fb9673756
-  - enabled: 0
-    path: Assets/CCDS/Scenes/CCDS_MainMenu_City.unity
-    guid: 840caa8bc02ac8047bf04557fa2c02dc
-  - enabled: 0
-    path: Assets/CCDS/Scenes/CCDS_Gameplay_City_1.unity
-    guid: a1bf926548611c74f9d117d6757939cb
-  - enabled: 0
-    path: Assets/CCDS/Scenes/CCDS_Gameplay_City_2.unity
-    guid: 1568768d047fecf49b7a1bddd3fcb167
-  - enabled: 0
-    path: Assets/CCDS/Scenes/CCDS_Vehicles_Prototype.unity
-    guid: b3decdbf51a74e94194069a5d1908c63
+    guid: 36c32a1aa7f0bcf419abc3067e9960b8
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

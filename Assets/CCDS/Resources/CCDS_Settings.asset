@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b6c8e74f41cdc194d827ca4994d27042, type: 3}
   m_Name: CCDS_Settings
   m_EditorClassIdentifier: 
-  mainMenuSceneIndex: 1
+  mainMenuSceneIndex: 0
   defaultMoney: 15000
   defaultPlayerName: New Player
   defaultSelectedVehicleIndex: 0

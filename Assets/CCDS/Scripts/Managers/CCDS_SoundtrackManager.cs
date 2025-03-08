@@ -1,7 +1,7 @@
-//----------------------------------------------
+ï»¿//----------------------------------------------
 //        City Car Driving Simulator
 //
-// Copyright © 2014 - 2024 BoneCracker Games
+// Copyright ï¿½ 2014 - 2024 BoneCracker Games
 // https://www.bonecrackergames.com
 // Ekrem Bugra Ozdoganlar
 //
@@ -137,7 +137,6 @@ public class CCDS_SoundtrackManager : ACCDS_Manager {
                 //  And playing the audioclip.
                 if (!garageSountracks.Contains(SoundtrackSource.clip))
                     PlayClip(randomClip);
-
             }
 
             return;
